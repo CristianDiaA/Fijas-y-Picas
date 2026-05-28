@@ -1,0 +1,22 @@
+requerimiento
+Se requiere construir y entregar al juego picas y fijas. 
+
+Se ha de generar un numero de 4 cifras diferentes. 
+Ej ---> 4 5 9 1
+El jugador debera acertar el numero a partir de las siguientes reglas. 
+Digitar un numero de 4 cifras numeros diferentes. 
+Ej ---> 1 0 9 2
+	Rta Si la cifra existe y esta en posicion 9 Fija 
+	    Si la cifra existe y no esta en posicion 1 Pica 
+	1 Fija 1 Pica 
+
+Debe permitir el numero de intentos hasta adivinar el numero
+
+	7 6 2 0		0 Fijas 0 Picas
+	4 5 9 1		4 fijas 0 picas Termina. 
+Se ha de almacena en una tabla de base de datos:
+Nombre del jugador (Nickname) único 
+Numero generado
+Intentos
+Tiempo
+La aplicacion tendra 2 opciones 1 jugar 2 visualizar la tabla de resultados ordenada por menor a mayor tiempos - intentos usando lamba
